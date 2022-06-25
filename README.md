@@ -2,5 +2,5 @@
 
 A roguelite game project.
 
-<ul>Language: **C++**</ul>
-<ul>Library: **SFML**</ul>
+- Language: **C++**
+- Library: **SFML**
