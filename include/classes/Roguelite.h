@@ -10,14 +10,21 @@
 #include <SFML/System.hpp>
 #include <SFML/OpenGL.hpp>
 #include <SFML/Audio.hpp>
+#include "classes/MainMenu.h"
 
 class Roguelite {
     public:
     Roguelite();
     ~Roguelite();
+    void userEntry();
+    void draw();
     sf::RenderWindow window;
+    sf::Event event;
     sf::Clock clock;
     sf::VideoMode videoMode;
+    unsigned int ui;
+    unsigned int fps;
+    MainMenu mainMenu;
 };
 
 

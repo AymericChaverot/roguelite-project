@@ -5,7 +5,7 @@ OBJ = $(SRC:.cpp=.o)
 
 CC = g++
 
-CPPFLAGS = -Iinclude -lsfml-graphics -lsfml-window -lsfml-system
+CPPFLAGS = -Iinclude -lsfml-graphics -lsfml-window -lsfml-system -Wno-deprecated
 
 NAME = roguelite
 
