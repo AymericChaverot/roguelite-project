@@ -16,6 +16,15 @@ Roguelite::Roguelite() {
 Roguelite::~Roguelite() {
 }
 
+void Roguelite::run() {
+    while (window.isOpen()) {
+        userEntry();
+        window.clear(sf::Color::Red);
+        draw();
+        window.display();
+    }
+}
+
 void Roguelite::userEntry() {
     while (window.pollEvent(event)) {
         if (event.type == sf::Event::Closed) {

@@ -16,6 +16,8 @@ class Roguelite {
     public:
     Roguelite();
     ~Roguelite();
+    void run();
+    private:
     void userEntry();
     void draw();
     sf::RenderWindow window;
